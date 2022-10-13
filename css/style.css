@@ -1,0 +1,105 @@
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Начало === 2022-10 ==================== */
+@import "reset.css";
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Конец === 2022-10 ==================== */
+
+/* ==================== Подключение шрифтов ===  === Начало === 2022-10 ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap");
+@font-face {
+  font-family: "Hawkhurst";
+  src: url("../fonts/HawkhurstLTStd-Regular.woff2") format("woff2"),
+    url("../fonts/HawkhurstLTStd-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* ==================== Подключение шрифтов ===  === Конец === 2022-10 ==================== */
+
+.main {
+  font-family: "Hawkhurst", serif;
+}
+.header {
+  background-color: #74b6aa;
+}
+.links {
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 50px;
+  margin: 0px 0px 20px 0px;
+  padding: 35px 0px 20px 0px;
+  font-family: "Taviraj";
+  font-weight: 900;
+}
+.welcome {
+  background-color: rgba(229, 229, 229, 1);
+  max-width: 1010px;
+  min-height: 450px;
+  margin: 0 auto 20px;
+  padding: 56px 10px 30px 240px;
+}
+h1 {
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.speach {
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 480px;
+  margin: 0px 0px 44px 0px;
+}
+.welcome hr {
+  border: 1px solid salmon;
+  max-width: 413px;
+}
+.discovertext {
+  font-size: 16px;
+}
+.discover hr {
+  border: 1px solid salmon;
+  max-width: 60px;
+  margin: 0px 0px 32px 0px;
+}
+.button {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #333333;
+  padding: 14px 45px;
+  max-width: 229px;
+  max-height: 62;
+  margin-left: 150px;
+  box-shadow: 3px -3px 40px 9px darkgrey;
+}
+.product {
+  margin: 0 auto;
+  max-width: 1010px;
+  min-height: 270px;
+}
+.example hr {
+  border: 1px solid salmon;
+  max-width: 94px;
+  margin: 0px 0px 32px 0px;
+}
+.example {
+  background-color: rgba(229, 229, 229, 1);
+  padding: 32px 10px 10px 32px;
+  max-width: 540px;
+  min-height: 270px;
+  margin: 0 auto 20px;
+}
+.example h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0px 0px 10px 0px;
+}
+.example-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(119, 119, 119, 1);
+  margin: 0px 0px 44px 0px;
+}
